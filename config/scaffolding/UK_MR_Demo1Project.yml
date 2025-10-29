@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: UK_MR_Demo1Project
+  gitServerName: MR_UKI_Github
+  gitUrl: https://github.com/mreys
+  gitUsername: mreys
+  gitBranch: main
