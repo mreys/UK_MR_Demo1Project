@@ -37,50 +37,14 @@ services:
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
 configurationVariables:
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.datasourceClass
+  : org.postgresql.ds.PGSimpleDataSource
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
   : webMethods
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
   : "10"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
   : "1000"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.trustStore
-  : ""
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.expireTimeout
-  : "1000"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
-  : org.postgresql.ds.PGSimpleDataSource
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
-  : "1"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.otherProperties
-  : loginTimeout=60;
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
-  : "false"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
-  : ""
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
-  : "1"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
-  : "false"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.heartBeatInterval
-  : "0"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
-  : NO_TRANSACTION
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
-  : webMethods
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
-  : localhost
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.poolIncrementSize
-  : "1"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.networkProtocol
-  : ""
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.serverName
-  : localhost
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.blockingTimeout
-  : "1000"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
-  : "10"
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.datasourceClass
-  : org.postgresql.ds.PGSimpleDataSource
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
   : POSTGRESQL
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.dbType
@@ -93,32 +57,64 @@ configurationVariables:
   : ""
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.maximumPoolSize
   : "10"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.trustStore
+  : ""
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.expireTimeout
+  : "1000"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
   : pgjdbc
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.portNumber
   : "5433"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.driverType
   : PG
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
+  : org.postgresql.ds.PGSimpleDataSource
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
   : "{AES}/ZTDkz4lzdTELmTdyChoSxFTcxGI/d6sTn/sY9Bo43Q="
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.otherProperties
+  : loginTimeout=60;
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.user
   : mreys
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
   : "1000"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
+  : ""
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.password
   : "{AES}pjnFkvHeNgiVinULMCybIw=="
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
   : "0"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
+  : "false"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
+  : webMethods
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
+  : localhost
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.poolable
   : "false"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.startupRetryCount
   : "0"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.poolIncrementSize
+  : "1"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
   : "5432"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.networkProtocol
+  : ""
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.transactionType
   : LOCAL_TRANSACTION
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.serverName
+  : MikeAtIBM
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
   : loginTimeout=60;
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.databaseName
@@ -129,3 +125,7 @@ configurationVariables:
   : ""
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.keyStore
   : ""
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
+  : "10"
