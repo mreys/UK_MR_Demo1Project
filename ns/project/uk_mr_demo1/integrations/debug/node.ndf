@@ -96,9 +96,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Mike.Reys@ibm.com</value>
-    <value name="createdDate">1762180049379</value>
-    <value name="lastModifiedDate">1762180049379</value>
+    <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
+    <value name="lastModifiedDate">1762180150449</value>
     <value name="displayName">debug</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -121,6 +120,7 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
