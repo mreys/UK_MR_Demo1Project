@@ -15,6 +15,24 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">flowid</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="wrapper_type">java.lang.Integer</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -45,9 +63,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Mike.Reys@ibm.com</value>
-    <value name="createdDate">1762454002003</value>
-    <value name="lastModifiedDate">1762454002003</value>
+    <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
+    <value name="lastModifiedDate">1762454116613</value>
     <value name="displayName">Retrieve</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -109,6 +126,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
