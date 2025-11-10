@@ -5,11 +5,8 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="IF" EXIT-ON="FAILURE" CONDITION="((%/id%))" FORM="IF">
-
-  <!-- nodes -->
-
 <INVOKE NAME="Math" SERVICE="pub.math:absoluteValue">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -144,7 +141,6 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
-</SEQUENCE>
 
 <INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:OrderEntry" VALIDATE-IN="" VALIDATE-OUT="">
   <COMMENT></COMMENT>

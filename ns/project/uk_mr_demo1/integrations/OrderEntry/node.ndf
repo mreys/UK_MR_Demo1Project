@@ -116,7 +116,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
-    <value name="lastModifiedDate">1762789854914</value>
+    <value name="lastModifiedDate">1762789968162</value>
     <value name="displayName">OrderEntry</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -127,23 +127,6 @@
     </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">IF</value>
-        <record name="config" javaclass="com.wm.util.Values">
-          <value name="displayLabel">field_name</value>
-          <value name="toolTipLabel">name</value>
-          <Boolean name="showLeafLabelOnly">true</Boolean>
-          <Boolean name="allowConstantValueInput">true</Boolean>
-          <Boolean name="focusOnLoad">true</Boolean>
-          <Boolean name="specialCharsAllowed">false</Boolean>
-          <Boolean name="resetOnfocusout">true</Boolean>
-          <Boolean name="displayIcon">true</Boolean>
-        </record>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
-      </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
@@ -156,14 +139,14 @@
           <value name="displayName">absoluteValue</value>
           <value name="serviceName">pub.math:absoluteValue</value>
           <Boolean name="enabled">true</Boolean>
-          <double name="rank" type="Double">0.4</double>
+          <double name="rank" type="Double">0.7</double>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
-        <number name="ui_step_index" type="Long">2</number>
-        <value name="nodePathNew">0.0</value>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">2</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
