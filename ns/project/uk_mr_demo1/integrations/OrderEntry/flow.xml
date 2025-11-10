@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:OrderEntry" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/id;3.6;0" TO="/OrderEntryInput;2;0/id;3.6;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/datetime;1;0" TO="/OrderEntryInput;2;0/time;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/CustomerId;3.6;0" TO="/OrderEntryInput;2;0/customerid;3.6;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/ProductID;1;0" TO="/OrderEntryInput;2;0/productid;1;0">
+</MAPCOPY>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <COMMENT></COMMENT>
+</MAP>
+</INVOKE>
+</FLOW>
