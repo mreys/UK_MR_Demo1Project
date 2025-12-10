@@ -126,7 +126,7 @@
 
   <!-- nodes -->
 
-<MAPINVOKE NAME="String" SERVICE="pub.string:objectToString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+<MAPINVOKE NAME="Math" SERVICE="pub.math:divideInts" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
 
   <!-- nodes -->
 
@@ -134,15 +134,24 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/customerid;3.4;0" TO="/object;3;0">
+<MAPCOPY FROM="/customerid;3.4;0" TO="/num1;1;0">
 </MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/num2;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">1</value>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="INVOKEOUTPUT">
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/string;1;0" TO="/idinstring;1;0">
+<MAPCOPY FROM="/value;1;0" TO="/idinstring;1;0">
 </MAPCOPY>
 </MAP>
 </MAPINVOKE>
