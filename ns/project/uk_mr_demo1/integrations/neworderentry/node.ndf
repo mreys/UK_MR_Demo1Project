@@ -28,7 +28,7 @@
           <value name="field_name">customerid</value>
           <value name="field_type">object</value>
           <value name="field_dim">0</value>
-          <value name="wrapper_type">java.lang.Double</value>
+          <value name="wrapper_type">java.lang.Integer</value>
           <value name="nillable">true</value>
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
@@ -117,7 +117,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
-    <value name="lastModifiedDate">1765391060869</value>
+    <value name="lastModifiedDate">1765391297934</value>
     <value name="displayName">neworderentry</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -156,9 +156,9 @@
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">0.0</value>
       </record>
-      <null name="/0/1"/>
+      <record name="/0/1" javaclass="com.wm.util.Values">
+      </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>

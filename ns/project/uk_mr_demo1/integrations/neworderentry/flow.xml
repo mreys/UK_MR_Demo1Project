@@ -32,7 +32,7 @@
         <value name="field_name">customerid</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Double</value>
+        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -61,18 +61,6 @@
         <value name="field_name">currentdatetime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">customerintegerid</value>
-        <value name="field_type">object</value>
-        <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -108,7 +96,7 @@
         <value name="field_name">customerid</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Double</value>
+        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -126,6 +114,18 @@
         <value name="field_name">productive</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">customerintegerid</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -174,8 +174,8 @@
 </MAP>
 </MAPINVOKE>
 
-<MAPCOPY FROM="/customerid;3.4;0" TO="/customerintegerid;3.6;0">
-</MAPCOPY>
+<MAPDELETE FIELD="/customerintegerid;3.6;0">
+</MAPDELETE>
 </MAP>
 
 <INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Insert" VALIDATE-IN="" VALIDATE-OUT="">
@@ -306,7 +306,7 @@
         <value name="field_name">customerid</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Double</value>
+        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -339,18 +339,6 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
       </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">customerintegerid</value>
-        <value name="field_type">object</value>
-        <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -365,7 +353,7 @@
 <MAPCOPY FROM="/currentdatetime;1;0" TO="/InsertInput;2;0/time;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/customerid;3.4;0" TO="/InsertInput;2;0/customerid;1;0">
+<MAPCOPY FROM="/customerid;3.6;0" TO="/InsertInput;2;0/customerid;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -397,7 +385,7 @@
         <value name="field_name">customerid</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Double</value>
+        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -426,18 +414,6 @@
         <value name="field_name">currentdatetime</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">customerintegerid</value>
-        <value name="field_type">object</value>
-        <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
