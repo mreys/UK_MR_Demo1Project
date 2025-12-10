@@ -30,9 +30,8 @@
         </record>
         <value name="is_public">false</value>
         <value name="field_name">customerid</value>
-        <value name="field_type">object</value>
+        <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -94,9 +93,8 @@
         </record>
         <value name="is_public">false</value>
         <value name="field_name">customerid</value>
-        <value name="field_type">object</value>
+        <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -147,21 +145,9 @@
   <!-- nodes -->
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/timezone;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">UTC</value>
-</Values>
-</DATA>
 </MAPSET>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/pattern;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">d/M/y H:m</value>
-</Values>
-</DATA>
 </MAPSET>
 </MAP>
 
@@ -304,9 +290,8 @@
         </record>
         <value name="is_public">false</value>
         <value name="field_name">customerid</value>
-        <value name="field_type">object</value>
+        <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -353,7 +338,7 @@
 <MAPCOPY FROM="/currentdatetime;1;0" TO="/InsertInput;2;0/time;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/customerid;3.6;0" TO="/InsertInput;2;0/customerid;1;0">
+<MAPCOPY FROM="/customerid;1;0" TO="/InsertInput;2;0/customerid;1;0">
 </MAPCOPY>
 </MAP>
 
@@ -383,9 +368,8 @@
         </record>
         <value name="is_public">false</value>
         <value name="field_name">customerid</value>
-        <value name="field_type">object</value>
+        <value name="field_type">string</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Integer</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
