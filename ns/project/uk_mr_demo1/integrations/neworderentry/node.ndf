@@ -98,45 +98,21 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Mike.Reys@ibm.com</value>
-    <value name="createdDate">1765387018100</value>
-    <value name="lastModifiedDate">1765387018100</value>
+    <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
+    <value name="lastModifiedDate">1765388038194</value>
     <value name="displayName">neworderentry</value>
     <value name="description"></value>
-    <array name="appList" type="record" depth="1">
-      <record javaclass="com.wm.util.Values">
-        <value name="providerName">WmJDBCAdapter</value>
-        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
-      </record>
-    </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">APPS</value>
-        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
-        <value name="name">Database</value>
-        <value name="providerName">WmJDBCAdapter</value>
-        <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">Insert</value>
-          <null name="description"/>
-          <value name="isCustom">true</value>
-          <value name="operationType">actions</value>
-          <value name="projectName">project.uk_mr_demo1</value>
-        </record>
-        <value name="appType">predefined</value>
-        <Boolean name="hasAccount">true</Boolean>
-        <Boolean name="allowCustomOperations">true</Boolean>
-        <value name="allowDeleteApplication">false</value>
-        <value name="allowUpdateApplication">false</value>
-        <null name="certified"/>
-        <Boolean name="deprecated">false</Boolean>
-        <value name="description">Database Application enables you to perform database operation</value>
-        <null name="icon"/>
-        <value name="packageName">WmJDBCAdapter</value>
-        <value name="type">Adapters</value>
-        <value name="version">1.0</value>
-        <number name="index" type="Long">0</number>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
         </array>
@@ -144,20 +120,19 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Lasttrey</value>
-          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
-          <null name="description"/>
+      </record>
+      <record name="/0/0" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">objectToString</value>
+          <value name="serviceName">pub.string:objectToString</value>
+          <value name="transformerSupport">true</value>
         </record>
-        <value name="connectionNSName">project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Lasttrey</value>
-        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
-        <Boolean name="accountReferenceResolved">true</Boolean>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupName">string</value>
+          <value name="groupDisplayName">String</value>
+        </record>
       </record>
     </record>
   </record>
