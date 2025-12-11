@@ -12,14 +12,6 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Lasttrey
-  packages:
-  - name: UK_MR_Demo1Project
-    version: "1.0"
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
 - serviceName: project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Insert
   packages:
   - name: UK_MR_Demo1Project
@@ -28,7 +20,31 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:OrderEntry
+  packages:
+  - name: UK_MR_Demo1Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Retrieve
+  packages:
+  - name: UK_MR_Demo1Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:fjdkdsk
+  packages:
+  - name: UK_MR_Demo1Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:gettheID
   packages:
   - name: UK_MR_Demo1Project
     version: "1.0"
@@ -47,7 +63,15 @@ services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2097
+    version: 11.1.0.0.2105
+- serviceName: project.uk_mr_demo1.integrations:neworderentry
+  packages:
+  - name: UK_MR_Demo1Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 configurationVariables:
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionManagerSettings.maximumPoolSize
   : "10"
@@ -135,16 +159,16 @@ configurationVariables:
   : postgres
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
   : pgjdbc
+  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionSettings.driverType
+  : postgresql
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.portNumber
   : "5433"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.driverType
   : PG
-  ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionSettings.driverType
-  : postgresql
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
-  : "{AES}/ZTDkz4lzdTELmTdyChoSxFTcxGI/d6sTn/sY9Bo43Q="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionManagerSettings.startupBackoffSecs
   : "10"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.user
@@ -152,13 +176,13 @@ configurationVariables:
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
   : "1000"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.PG.connectionSettings.password
-  : "{AES}pjnFkvHeNgiVinULMCybIw=="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionManagerSettings.blockingTimeout
   : "1000"
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionSettings.password
-  : "{AES}/ZTDkz4lzdTELmTdyChoSxFTcxGI/d6sTn/sY9Bo43Q="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionSettings.keyStore
   : ""
   ? artConnection.UK_MR_Demo1Project.project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Lasttrey.connectionManagerSettings.poolable
