@@ -356,7 +356,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1</value>
+  <value name="xml">project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Lasttrey</value>
 </Values>
 </DATA>
 </MAPSET>
@@ -748,7 +748,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1</value>
+  <value name="xml">project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Lasttrey</value>
 </Values>
 </DATA>
 </MAPSET>
