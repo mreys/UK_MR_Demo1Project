@@ -116,7 +116,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
-    <value name="lastModifiedDate">1765892075282</value>
+    <value name="lastModifiedDate">1765892156439</value>
     <value name="displayName">neworderentry</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -186,11 +186,11 @@
         <number name="index" type="Long">0</number>
         <record name="connection" javaclass="com.wm.util.Values">
           <value name="connectionName">Lasttrey</value>
-          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
         <value name="connectionNSName">project.uk_mr_demo1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Lasttrey</value>
-        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
@@ -212,7 +212,6 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <null name="outputMapSet"/>
         <value name="nodePathForDebug">1</value>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
