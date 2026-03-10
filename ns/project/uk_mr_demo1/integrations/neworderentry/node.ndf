@@ -116,7 +116,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
-    <value name="lastModifiedDate">1765894046118</value>
+    <value name="lastModifiedDate">1773150857485</value>
     <value name="displayName">neworderentry</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -143,21 +143,6 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <value name="nodePathForDebug">0</value>
-      </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
-        <value name="itemType">SERVICES</value>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">getCurrentDateString</value>
-          <value name="serviceName">pub.date:getCurrentDateString</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <value name="nodePathForDebug">0.0</value>
-      </record>
-      <record name="/0/1" javaclass="com.wm.util.Values">
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -212,6 +197,7 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <null name="outputMapSet"/>
         <value name="nodePathForDebug">1</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
