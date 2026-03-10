@@ -116,7 +116,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Mike.Reys@ibm.com</value>
-    <value name="lastModifiedDate">1773151022435</value>
+    <value name="lastModifiedDate">1773151095806</value>
     <value name="displayName">neworderentry</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -143,19 +143,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-      </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
-        <value name="itemType">SERVICES</value>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">getCurrentDateString</value>
-          <value name="serviceName">pub.date:getCurrentDateString</value>
-          <value name="transformerSupport">true</value>
-        </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
-        </record>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
